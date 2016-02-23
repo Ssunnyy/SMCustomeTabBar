@@ -22,11 +22,11 @@
     
     [super viewWillAppear:YES];
     
-    if (self.navigationController.viewControllers.count > 1) {
-        [[TabBarViewController shareTabBarViewController] hidenTabBar];
-    }else {
-        [[TabBarViewController shareTabBarViewController] showTabBar];
-    }
+//    if (self.navigationController.viewControllers.count > 1) {
+//        [[TabBarViewController shareTabBarViewController] hidenTabBar];
+//    }else {
+//        [[TabBarViewController shareTabBarViewController] showTabBar];
+//    }
 }
 
 

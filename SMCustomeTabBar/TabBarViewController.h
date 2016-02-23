@@ -30,14 +30,14 @@
  */
 - (void)addUnReadCountWithIndex:(NSInteger)index badgeValue:(NSString *)string;
 
-/**
- *  隐藏tabbar
- */
-- (void)hidenTabBar;
-
-/**
- *  显示tabbar
- */
-- (void)showTabBar;
+///**
+// *  隐藏tabbar
+// */
+//- (void)hidenTabBar;
+//
+///**
+// *  显示tabbar
+// */
+//- (void)showTabBar;
 
 @end

@@ -58,21 +58,21 @@
     [self.tabBar.items objectAtIndex:index].badgeValue = string;
 }
 
-/**
- *  隐藏tabbar
- */
-- (void)hidenTabBar {
-    
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
-}
-
-/**
- *  显示tabbar
- */
-- (void)showTabBar {
-    
-    [self.navigationController setNavigationBarHidden:NO animated:YES];
-}
+///**
+// *  隐藏tabbar
+// */
+//- (void)hidenTabBar {
+//    
+//    [self.navigationController setNavigationBarHidden:YES animated:YES];
+//}
+//
+///**
+// *  显示tabbar
+// */
+//- (void)showTabBar {
+//    
+//    [self.navigationController setNavigationBarHidden:NO animated:YES];
+//}
 
 // 初始化视图控制器
 - (void)_initViewControllers
